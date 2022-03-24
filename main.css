@@ -33,3 +33,67 @@ button {
   text-align: center;
   background color: #85F4FF;
 }
+.Van {
+  background-image: url("https://i.ytimg.com/vi/eGwXp7ia8gA/maxresdefault.jpg");
+   min-height: 1000px;
+   background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.scroll-container {
+  height: 100vh;
+  min-height: 450px;
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.scroll-container:nth-of-type(1) {
+  background-color: #bdd0c4;
+}
+.scroll-container:nth-of-type(2) {
+  background-color: #f5d2d3;
+}
+.scroll-container:nth-of-type(3) {
+  background-color: #9ab7d3;
+}
+.scroll-container:nth-of-type(4) {
+  background-color: #dfccf1;
+}
+
+.scroll-container:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.scroll-element,
+.scroll-caption {
+  width: 50%;
+}
+
+.scroll-element {
+  min-height: 300px;
+  height: 100%;
+  background-color: #eaeaea;
+}
+
+.scroll-caption {
+  margin: 1rem;
+}
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
