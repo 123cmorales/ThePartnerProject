@@ -1,0 +1,35 @@
+.col-sm {
+  border: 1px solid #3b1f2b;
+  background-color: #3b1f2b;
+}
+.col-lg {
+  border: 1px solid #3b1f2b;
+  background-color: #3b1f2b;
+}
+body {
+  background-color: #b8fff9;
+}
+img {
+  width: 1920px;
+  height: 600px;
+}
+h1 {
+  color: #42c2ff;
+  text-align: center;
+}
+h2 {
+  color: #42c2ff;
+  text-align: center;
+}
+p {
+  color: #42c2ff;
+  text-align: center;
+}
+h5 {
+  color: #42c2ff;
+  text-align: center;
+}
+button {
+  text-align: center;
+  background color: #85F4FF;
+}
