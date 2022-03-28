@@ -41,6 +41,14 @@ button {
  background-repeat: no-repeat;
  background-size: cover;
 }
+.Booth {
+  background-image: url("https://magazine.wharton.upenn.edu/wp-content/uploads/2019/09/DrWhoTardis.jpg");
+   min-height: 1000px;
+   background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
 .scroll-container {
   height: 100vh;
   min-height: 450px;
