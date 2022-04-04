@@ -33,3 +33,11 @@ button {
   text-align: center;
   background color: #85F4FF;
 }
+#card {
+  height: 200px;
+  width: 285px;
+}
+#about {
+  width: 100px;
+  height: 100px;
+}
