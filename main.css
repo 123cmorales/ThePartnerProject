@@ -22,8 +22,14 @@ h2 {
   text-align: center;
 }
 p {
-  color: #42c2ff;
+  color: #black;
   text-align: center;
+  font-family: 'Comforter Brush', cursive;
+}
+h2{
+  color: #black;
+  text-align: center;
+  font-family: 'Comforter Brush', cursive;  
 }
 h5 {
   color: #42c2ff;
@@ -104,4 +110,81 @@ button {
   width: 300px;
   padding: 20px;
   text-align: center;
+}
+.slide-left {
+   background-image: url("https://cdn3.vectorstock.com/i/1000x1000/87/37/time-machine-vector-25148737.jpg.");
+}
+.fade-in-bottom{
+  background-image: url("https://cdn.dnaindia.com/sites/default/files/styles/full/public/2017/04/30/570649-1024px-treval.jpg");
+}
+
+.fade-in{
+  background-image: url("https://cloudcomputing-news.net/wp-content/uploads/sites/2/2020/03/empty-futuristic-room-picture-id874266728.jpg");
+}
+.js-scroll {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.js-scroll.scrolled {
+  opacity: 1;
+}
+
+.scrolled.fade-in {
+  animation: fade-in 1s ease-in-out both;
+}
+
+.scrolled.fade-in-bottom {
+  animation: fade-in-bottom 1s ease-in-out both;
+}
+
+.scrolled.slide-left {
+  animation: slide-in-left 1s ease-in-out both;
+}
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
